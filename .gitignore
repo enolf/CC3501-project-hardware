@@ -4,6 +4,7 @@
 .\#*
 
 # KiCad backup files
+CC3501-project-hardware-backups
 *.bak
 *.bck
 *.kicad_pcb-bak
