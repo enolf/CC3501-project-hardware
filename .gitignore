@@ -1,16 +1,4 @@
-# Generic backup files
-*~
-\#*
-.\#*
-
-# KiCad backup files
-CC3501-project-hardware-backups
-*.bak
-*.bck
-*.kicad_pcb-bak
-
-# KiCad generated files
-*.erc
-*.net
-*-cache.lib
-*-rescue.lib
+/~*.lck
+/*-backups/**/*
+/fp-info-cache
+/*.kicad_prl
