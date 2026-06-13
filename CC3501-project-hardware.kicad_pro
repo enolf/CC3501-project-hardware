@@ -433,8 +433,8 @@
     "top_level_sheets": [
       {
         "filename": "CC3501-project-hardware.kicad_sch",
-        "name": "CC3501-project-hardware",
-        "uuid": "45ea09ec-580c-4fe0-9ec7-86fadca5690f"
+        "name": "",
+        "uuid": "4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
       }
     ],
     "used_designators": "",
@@ -442,8 +442,8 @@
   },
   "sheets": [
     [
-      "45ea09ec-580c-4fe0-9ec7-86fadca5690f",
-      "CC3501-project-hardware"
+      "4a2d49bb-8ba4-4c60-a8f0-05b8d2544445",
+      ""
     ]
   ],
   "text_variables": {},
