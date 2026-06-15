@@ -3889,6 +3889,17 @@
 		)
 		(uuid "5804ebdd-6aa4-4457-be51-609c36eca7c3")
 	)
+	(text "Decouple Caps"
+		(exclude_from_sim no)
+		(at 59.944 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 19 1)
+			)
+		)
+		(uuid "1f1ed242-dade-42db-92e7-7e339c6ab34f")
+	)
 	(text "TODO"
 		(exclude_from_sim no)
 		(at 145.796 50.8 0)
@@ -3901,6 +3912,17 @@
 		)
 		(uuid "325796c5-5c74-4180-a5b6-a8dcb9207237")
 	)
+	(text "NEED\nPULL UPS"
+		(exclude_from_sim no)
+		(at 18.288 111.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 19 1)
+			)
+		)
+		(uuid "42ac58f3-5a97-47ab-84a8-624585e1069d")
+	)
 	(text "FLASH"
 		(exclude_from_sim no)
 		(at 145.542 63.5 0)
@@ -3910,6 +3932,17 @@
 			)
 		)
 		(uuid "5cb49063-fe24-47d9-8769-42cbd707c9ac")
+	)
+	(text "Need to decide how to power temp sensors\n(3.3V power or through parasitic power, see datasheet)"
+		(exclude_from_sim no)
+		(at 56.642 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 19 1)
+			)
+		)
+		(uuid "627e2e75-6698-4217-a353-7f471d1e27f3")
 	)
 	(text "DECOUPLING CAPACITORS"
 		(exclude_from_sim no)
@@ -3934,6 +3967,17 @@
 		)
 		(uuid "6b4439fd-6a68-4f86-bf73-b7ec5df56e7c")
 	)
+	(text "Decouple Caps"
+		(exclude_from_sim no)
+		(at 50.038 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 19 1)
+			)
+		)
+		(uuid "809ab88f-b77c-4261-964f-14abdc8d8301")
+	)
 	(text "Bottom Fridge\nCompartment"
 		(exclude_from_sim no)
 		(at 80.264 185.42 0)
@@ -3944,7 +3988,7 @@
 		)
 		(uuid "9799de1e-9871-40a4-acc8-e1a859cc70c5")
 	)
-	(text "LOAD CELL AMPLIFIER (2-wire protocol)"
+	(text "LOAD CELL ADC (2-wire protocol)"
 		(exclude_from_sim no)
 		(at 116.586 91.694 0)
 		(effects
@@ -3968,6 +4012,17 @@
 			)
 		)
 		(uuid "a068d718-d932-40fc-9439-7118084a0b0d")
+	)
+	(text "NEED\nPULL UPS"
+		(exclude_from_sim no)
+		(at 85.344 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 19 1)
+			)
+		)
+		(uuid "b52adb6e-961e-45ae-8e59-45060e33bb4f")
 	)
 	(text "SWD + UART"
 		(exclude_from_sim no)
@@ -4023,7 +4078,7 @@
 	)
 	(text "Temperature Sensor Chain (1-wire)"
 		(exclude_from_sim no)
-		(at 60.198 143.764 0)
+		(at 59.182 141.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5851,7 +5906,6 @@
 		)
 		(property "LSCS PN" "C6705483"
 			(at 116.84 115.57 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
