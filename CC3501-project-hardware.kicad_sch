@@ -5849,6 +5849,17 @@
 				)
 			)
 		)
+		(property "LSCS PN" "C6705483"
+			(at 116.84 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fcf3c5fc-2d75-42a6-8f10-03be87fa5902")
 		)
