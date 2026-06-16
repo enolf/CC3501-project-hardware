@@ -697,13 +697,17 @@
         "uuid": "4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U8-9,R5-7,C3-5,J2,#PWR18-24",
     "variants": []
   },
   "sheets": [
     [
       "4a2d49bb-8ba4-4c60-a8f0-05b8d2544445",
       ""
+    ],
+    [
+      "bf94317a-9dda-4934-8bf5-bd19b681ec92",
+      "rp2040stuff"
     ]
   ],
   "text_variables": {},
