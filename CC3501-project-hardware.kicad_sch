@@ -8434,7 +8434,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bf94317a-9dda-4934-8bf5-bd19b681ec92")
-		(property "Sheetname" "rp2040stuff"
+		(property "Sheetname" "rp2040 components"
 			(at 332.74 1.8284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8445,7 +8445,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "rp2040components.kicad_sch"
 			(at 332.74 211.4046 0)
 			(show_name no)
 			(do_not_autoplace no)

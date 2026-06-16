@@ -5,7 +5,7 @@
 	(uuid "abf436f4-9eaa-46bf-bb06-9e43327381af")
 	(paper "A4")
 	(title_block
-		(title "RP2040 basic")
+		(title "RP2040 Components")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
