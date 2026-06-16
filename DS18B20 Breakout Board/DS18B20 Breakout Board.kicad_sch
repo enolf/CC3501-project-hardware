@@ -689,6 +689,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "DS18B20 configured in parasitic power mode. FET and pull-up resistor to be placed on the mainboard close to the GPIO pin."
+		(exclude_from_sim no)
+		(at 143.51 120.65 0)
+		(size 33.02 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d04b307d-5097-4910-84ae-78f8ba158057")
+	)
 	(junction
 		(at 168.91 109.22)
 		(diameter 0)
