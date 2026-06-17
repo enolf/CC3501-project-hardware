@@ -618,12 +618,6 @@
         },
         {
           "group_by": false,
-          "label": "LSCS PN",
-          "name": "LSCS PN",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "KLC_S4.2_DVDD",
           "name": "KLC_S4.2_DVDD",
           "show": false
@@ -638,6 +632,168 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET URL",
+          "name": "DATASHEET URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET VERSION",
+          "name": "DATASHEET VERSION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PN",
+          "name": "LCSC PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "CASE SIZE/DIMENSION",
+          "name": "CASE SIZE/DIMENSION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER URL",
+          "name": "MANUFACTURER URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RATED VOLTAGE",
+          "name": "RATED VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE (%)",
+          "name": "TOLERANCE (%)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIELECTRIC",
+          "name": "DIELECTRIC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAPACITANCE",
+          "name": "CAPACITANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS PN",
+          "name": "LSCS PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINS",
+          "name": "PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ELEMENT14 ITEM",
+          "name": "ELEMENT14 ITEM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESIGN ITEM ID",
+          "name": "DESIGN ITEM ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SOURCE",
+          "name": "SOURCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENT TYPE",
+          "name": "COMPONENT TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATESTREVISIONDATE",
+          "name": "LATESTREVISIONDATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATESTREVISIONNOTE",
+          "name": "LATESTREVISIONNOTE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PUBLISHER",
+          "name": "PUBLISHER",
           "show": false
         }
       ],
@@ -697,7 +853,7 @@
         "uuid": "4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
       }
     ],
-    "used_designators": "S1-2,C4-9,#PWR13-16,#PWR21-24,Q1,Y1-2,R7,R10-12,U2",
+    "used_designators": "S1-2,C4-18,#PWR10-11,#PWR13-17,#PWR21-33,#PWR101-110,#PWR117-124,#PWR131-132,#PWR136,#PWR142-145,Q1,Y1-2,R7,R10-13,U2-3,U7,P2-3,SW1,DS1",
     "variants": []
   },
   "sheets": [
@@ -712,6 +868,14 @@
     [
       "0bf64f49-ae63-4b77-9d9b-174c7658c64d",
       "DS18B20_breakout_board"
+    ],
+    [
+      "0c27bcac-fbf5-401f-bcb4-99ca27aa5914",
+      "Load Cell"
+    ],
+    [
+      "50ab5461-2300-442b-bf4b-f1a79527a3c6",
+      "TFT Display"
     ]
   ],
   "text_variables": {},

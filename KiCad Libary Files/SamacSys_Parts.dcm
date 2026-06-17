@@ -1,0 +1,189 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP CMA-4544PF-W
+D 9.7 mm, Omnidirectional, PCB Mount, 3.0 Vdc, Electret Condenser Microphone
+K
+F https://www.sameskydevices.com/product/resource/cma-4544pf-w.pdf
+$ENDCMP
+#
+$CMP STX-3120-3B-577C
+D Phone Connectors 3.5mm PCB STEREO JAK 3P ALL PLASTIC GREE
+K
+F http://www.kycon.com/Pub_Eng_Draw/STX-3120-3B-577C.pdf
+$ENDCMP
+#
+$CMP 1729018
+D PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDSN 1,5, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/de/produkte/1729018/pdf
+$ENDCMP
+#
+$CMP 1729021
+D PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MKDSN 1,5, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/de/produkte/1729021/pdf
+$ENDCMP
+#
+$CMP 1729047
+D PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, product range: MKDSN 1,5, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/de/produkte/1729047/pdf
+$ENDCMP
+#
+$CMP 1729063
+D PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 7, Number of rows: 1, Number of positions per row: 7, product range: MKDSN 1,5, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/de/produkte/1729063/pdf
+$ENDCMP
+#
+$CMP 1751277
+D Fixed Terminal Blocks 5P 3.5mm 90DEG
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00051380.pdf
+$ENDCMP
+#
+$CMP 1751293
+D PCB terminal block, 3.5mm pitch, 7 way
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA18/1075793.pdf
+$ENDCMP
+#
+$CMP MMBFJ175LT1G
+D Low rDS(on) Provides Higher Efficiency and Extends Battery Life; Miniature SOT-23 Surface Mount Package Saves Board Space; These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant
+K
+F https://www.onsemi.com/pub/Collateral/MMBFJ175LT1-D.PDF
+$ENDCMP
+#
+$CMP LMP7701MF_NOPB
+D Precision, CMOS Input, RRIO, Wide Supply Range Single Amplifier
+K
+F http://www.ti.com/lit/ds/symlink/lmp7701.pdf
+$ENDCMP
+#
+$CMP AD8616ARZ
+D AD8616ARZ, Dual Operational Amplifier 24MHz CMOS, R-R, 3V, 8-Pin SOIC
+K
+F http://www.analog.com/static/imported-files/data_sheets/AD8615_8616_8618.pdf
+$ENDCMP
+#
+$CMP BPW34
+D IR Photodiode PIN 900nm Vishay BPW34 IR + Visible Light Si Photodiode, 65 , Through-hole
+K
+F 
+$ENDCMP
+#
+$CMP AD8063ARTZ-REEL7
+D OP Amp Single Volt Fdbk R-R O/P 8V
+K
+F http://www.analog.com/static/imported-files/data_sheets/AD8061_8062_8063.pdf
+$ENDCMP
+#
+$CMP 2MS1T1B1M2QES
+D Toggle Switches SPDT ON-ON PC MOUNT
+K
+F https://www.mouser.de/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf
+$ENDCMP
+#
+$CMP 2MS1T1B3M2QES
+D Toggle Switches SPDT ON-ON
+K
+F https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf
+$ENDCMP
+#
+$CMP PTN091-H10115K1B
+D PTN091-H10115K1B - 9.5 mm, Horizontal, Linear, 10K, Through Hole, Knurled Shaft Rotary Potentiometer
+K
+F https://www.sameskydevices.com/product/resource/PTN091-H10115K1B.pdf
+$ENDCMP
+#
+$CMP PTN091-H50115K1B
+D PTN091-H50115K1B - 9.5 mm, Horizontal, Linear, 15K, Through Hole, Knurled Shaft Rotary Potentiometer
+K
+F https://www.sameskydevices.com/product/resource/PTN091-H50115K1B.pdf
+$ENDCMP
+#
+$CMP TBC05-03-1-G-G
+D 3 Position Wire to Board Terminal Block Horizontal with Board 0.100" (2.54mm) Through Hole
+K
+F https://www.mouser.it/datasheet/3/1507/1/tbc05.pdf
+$ENDCMP
+#
+$CMP TBC05-02-1-G-G
+D Fixed Terminal Blocks 2w, 2.54mm Pitch Term-Block, Side Entry, TH, Rising Clamp
+K
+F https://www.mouser.de/datasheet/3/1507/1/tbc05.pdf
+$ENDCMP
+#
+$CMP CL10A226MQ8NRNC
+D Samsung Electro-Mechanics 0603 CL 22uF Ceramic Multilayer Capacitor, 6.3 V, +85C, X5R Dielectric, +/-20% SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2405992.pdf
+$ENDCMP
+#
+$CMP AO3400A
+D 30V N-Channel MOSFET
+K
+F http://aosmd.com/res/data_sheets/AO3400A.pdf
+$ENDCMP
+#
+$CMP SY8089A1AAC
+D LOW LOSS POWER DISTRIBUTION SWITCH WITH
+K
+F https://datasheet.lcsc.com/szlcsc/2001171834_Silergy-Corp-SY8089A1AAC_C479074.pdf
+$ENDCMP
+#
+$CMP 0603WAF1003T5E
+D LEAD-FREE THICK FILM CHIP RESISTORS.
+K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1003T5E_C25803.pdf
+$ENDCMP
+#
+$CMP 0603WAF2202T5E
+D 100mW Thick Film Resistors 100ppm/ 1% 22k 0603  Chip Resistor  Surface Mount ROHS
+K
+F https://eu.mouser.com/datasheet/2/1365/1-3044649.pdf
+$ENDCMP
+#
+$CMP CL05A106MQ5NUNC
+D CAP CER 10UF 6.3V X5R 0402
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2406160.pdf
+$ENDCMP
+#
+$CMP 0402CG220J500NT
+D 50V 22pF C0G +/-5% 0402 High-Voltage Multi-layer Ceramic Capacitors
+K
+F https://www.lcsc.com/datasheet/C1555.pdf
+$ENDCMP
+#
+$CMP CL10A106KP8NNNC
+D 10F +/-10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2415998.pdf
+$ENDCMP
+#
+$CMP X322512MSB4SI
+D SMD Crystal Resonators 12MHz +/-10ppm SMD-3225_4P RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322512MSB4SI_C9002.pdf
+$ENDCMP
+#
+$CMP TS-1187A-B-A-B
+D tact switch 4x4X1.5 patch 160GF metal head waterproof
+K
+F http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf
+$ENDCMP
+#
+$CMP ILI9341
+D Color 320x240 TFT Touchscreen, ILI9341 Controller Chip
+K
+F https://www.pjrc.com/store/display_ili9341_touch.html
+$ENDCMP
+#
+#End Doc Library
