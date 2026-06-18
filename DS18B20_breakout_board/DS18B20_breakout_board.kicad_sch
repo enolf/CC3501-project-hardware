@@ -1415,10 +1415,6 @@
 		)
 		(instances
 			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
-					(reference "U10")
-					(unit 1)
-				)
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0bf64f49-ae63-4b77-9d9b-174c7658c64d"
 					(reference "U10")
 					(unit 1)
