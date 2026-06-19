@@ -3400,17 +3400,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 119.38 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "a1816499-0832-42b4-b6f6-d8976cf7535e")
 		)
@@ -3905,17 +3894,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 242.57 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3a62dd27-e4c2-425e-bebc-0cbf0575c53d")
 		)
@@ -4085,17 +4063,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 130.81 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8e828014-6fd1-48c7-9a07-aa11f54d7f88")
 		)
@@ -4241,17 +4208,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 243.84 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -4478,17 +4434,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "A"
 			(uuid "10ecf640-b9b8-4e42-933c-2f0c15fa3a27")
 		)
@@ -4695,17 +4640,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 255.27 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "633edfff-bcc5-41b0-870b-d757a286e020")
 		)
@@ -4796,17 +4730,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 130.81 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0d75109c-94af-48ef-a729-27558db35d33")
 		)
@@ -4888,17 +4811,6 @@
 		)
 		(property "LCSC PN" "C11702"
 			(at 119.38 41.656 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 119.38 48.26 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5090,17 +5002,6 @@
 		)
 		(property "LCSC PN" "C97521"
 			(at 151.13 68.326 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 157.48 57.15 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5364,17 +5265,6 @@
 		)
 		(property "LCSC PN" "C1525"
 			(at 183.388 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 176.53 35.56 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5788,17 +5678,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 140.97 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "7c3ee0f0-bc86-46cf-b4d7-fcadcc1a1752")
 		)
@@ -6075,17 +5954,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6365,17 +6233,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 88.9 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "A"
 			(uuid "de87b350-fa52-4f75-93b5-8edca8662cbd")
 		)
@@ -6463,17 +6320,6 @@
 		)
 		(property "LCSC PN" "C11702"
 			(at 101.6 114.554 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 101.6 111.76 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

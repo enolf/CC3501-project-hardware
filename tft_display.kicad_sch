@@ -2929,17 +2929,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 80.01 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "16f4e419-2610-4593-849d-452f73efa05c")
 		)
@@ -3030,17 +3019,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 80.01 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS PN" ""
 			(at 80.01 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3218,17 +3196,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 80.01 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "caf019f8-54da-4a2f-a87b-ff765190d390")
 		)
@@ -3312,17 +3279,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 64.77 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS PN" ""
-			(at 64.77 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,17 +3528,6 @@
 				)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 63.5 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c722ea03-f459-45b2-8179-cc09c638d125")
 		)
@@ -3733,17 +3678,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS PN" ""
 			(at 54.61 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -3920,17 +3854,6 @@
 				(justify left top)
 			)
 		)
-		(property "LSCS PN" ""
-			(at 143.51 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "A3"
 			(uuid "b0a0d92d-5b97-49a7-a94f-961801acd731")
 		)
@@ -4063,17 +3986,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS PN" ""
 			(at 55.88 118.11 0)
 			(hide yes)
 			(show_name no)
