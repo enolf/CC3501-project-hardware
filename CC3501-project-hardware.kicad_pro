@@ -578,7 +578,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -734,7 +734,7 @@
           "group_by": false,
           "label": "LCSC PN",
           "name": "LCSC PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -994,7 +994,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1045,7 +1045,7 @@
         "uuid": "4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
       }
     ],
-    "used_designators": "C23-25,C31,L3,R24,Y2,U3",
+    "used_designators": "C23-25,C31,L3,R24,Y2-3,U3",
     "variants": []
   },
   "sheets": [

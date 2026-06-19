@@ -3271,7 +3271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X322512MSB4SI"
+		(property "Footprint" "Crystal:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm"
 			(at 156.21 204.14 0)
 			(hide yes)
 			(show_name no)
@@ -4020,7 +4020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.032 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -4053,7 +4053,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C25804"
+		(property "LCSC PN" "C17414"
 			(at 134.62 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,7 +4477,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "100nF"
 			(at 259.08 127 0)
 			(hide yes)
 			(show_name no)
@@ -4489,7 +4489,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Imported Altium Library:CAPC1050X55X23ML05T13"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 255.27 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6275,7 +6275,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 101.6 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
