@@ -2370,6 +2370,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 72.39) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07587f79-77ab-4fa8-8890-f4fc7ab02f59")
+	)
+	(wire
+		(pts
 			(xy 194.31 115.57) (xy 207.01 115.57)
 		)
 		(stroke
@@ -2437,16 +2447,6 @@
 			(type default)
 		)
 		(uuid "1305ac34-1e7f-4e18-af17-5e8cf8d1abd2")
-	)
-	(wire
-		(pts
-			(xy 107.95 72.39) (xy 129.54 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13e5ea15-ff98-4cf8-a2ad-e66f4496b1e1")
 	)
 	(wire
 		(pts
@@ -2980,16 +2980,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 77.47) (xy 139.7 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72178511-faff-459b-919a-df7ddc216e39")
-	)
-	(wire
-		(pts
 			(xy 64.77 80.01) (xy 64.77 81.28)
 		)
 		(stroke
@@ -3120,6 +3110,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 44.45) (xy 135.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fce7b5a-51d0-4976-a7f3-ad0262f6dd64")
+	)
+	(wire
+		(pts
 			(xy 210.82 99.06) (xy 210.82 100.33)
 		)
 		(stroke
@@ -3227,16 +3227,6 @@
 			(type default)
 		)
 		(uuid "9e38088d-be19-4ecc-8aba-65ebe4c84b91")
-	)
-	(wire
-		(pts
-			(xy 135.89 63.5) (xy 135.89 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e7d71fe-7bfb-4ecc-9542-1e12bf55cc01")
 	)
 	(wire
 		(pts
@@ -3547,6 +3537,16 @@
 			(type default)
 		)
 		(uuid "d405e593-3fe2-4373-ba42-62c2a1bc679b")
+	)
+	(wire
+		(pts
+			(xy 114.3 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46135f4-f5d6-44bc-80ed-d234857ce465")
 	)
 	(wire
 		(pts
@@ -4119,7 +4119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061396b23")
-		(property "Reference" "C5"
+		(property "Reference" "C25"
 			(at 208.661 73.7616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4182,7 +4182,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C5")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4205,7 +4205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061396f81")
-		(property "Reference" "C2"
+		(property "Reference" "C34"
 			(at 193.04 40.5892 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4266,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C2")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006139a985")
-		(property "Reference" "R4"
+		(property "Reference" "R25"
 			(at 183.388 50.9016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4352,7 +4352,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "R4")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4375,7 +4375,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006139b488")
-		(property "Reference" "R5"
+		(property "Reference" "R24"
 			(at 207.518 63.6016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4438,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "R5")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4627,7 +4627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613be34a")
-		(property "Reference" "C13"
+		(property "Reference" "C37"
 			(at 76.581 75.0316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4690,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C13")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -4713,7 +4713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613bee83")
-		(property "Reference" "C12"
+		(property "Reference" "C36"
 			(at 67.691 75.0316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4776,7 +4776,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C12")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -4799,7 +4799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613bf189")
-		(property "Reference" "C11"
+		(property "Reference" "C35"
 			(at 58.801 75.0316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4862,7 +4862,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C11")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4967,7 +4967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000613d9bbc")
-		(property "Reference" "C14"
+		(property "Reference" "C38"
 			(at 86.741 75.0316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,7 +5030,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C14")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5139,7 +5139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061423c54")
-		(property "Reference" "Y1"
+		(property "Reference" "Y2"
 			(at 194.1576 102.9716 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5208,7 +5208,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "Y1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061428721")
-		(property "Reference" "C3"
+		(property "Reference" "C33"
 			(at 193.04 53.2892 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5292,7 +5292,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C3")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5397,7 +5397,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006146ec0d")
-		(property "Reference" "C6"
+		(property "Reference" "C26"
 			(at 208.661 83.9216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,7 +5460,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C6")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5565,7 +5565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000614829bb")
-		(property "Reference" "C8"
+		(property "Reference" "C28"
 			(at 224.79 83.7692 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5626,7 +5626,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C8")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5649,7 +5649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006148dd59")
-		(property "Reference" "C7"
+		(property "Reference" "C27"
 			(at 224.79 63.4492 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +5710,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C7")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5733,7 +5733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006148ef6b")
-		(property "Reference" "C9"
+		(property "Reference" "C29"
 			(at 232.791 73.7616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,7 +5796,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C9")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -5819,7 +5819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006148fac3")
-		(property "Reference" "C10"
+		(property "Reference" "C30"
 			(at 232.791 83.9216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5882,99 +5882,13 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C10")
+					(reference "C30")
 					(unit 1)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
 				(path "/a2716477-207d-483a-9c62-c67bf0a39c18"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 210.82 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000614a9291")
-		(property "Reference" "C4"
-			(at 213.741 102.9716 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22p NP0"
-			(at 213.741 105.283 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 211.7852 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "32141abd-a256-4e65-b106-2c267a921665")
-		)
-		(pin "1"
-			(uuid "fc24482d-f5f5-40e8-9970-c278756066a2")
-		)
-		(instances
-			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "CE-PiicoDev-RFID-Reader-Writer"
-				(path "/a2716477-207d-483a-9c62-c67bf0a39c18"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5991,7 +5905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000614aaa8a")
-		(property "Reference" "C1"
+		(property "Reference" "C23"
 			(at 174.371 105.5116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6054,7 +5968,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C1")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6415,7 +6329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006158e330")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 153.67 118.6942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6566,7 +6480,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6761,7 +6675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a1a04d")
-		(property "Reference" "C15"
+		(property "Reference" "C31"
 			(at 248.031 72.4916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +6738,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C15")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a1a896")
-		(property "Reference" "C16"
+		(property "Reference" "C32"
 			(at 248.031 82.6516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6910,7 +6824,7 @@
 		(instances
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "C16")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7545,6 +7459,86 @@
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 210.82 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8cc16e1-476f-4f4a-af93-92960470f509")
+		(property "Reference" "C24"
+			(at 213.741 102.9716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22p NP0"
+			(at 213.741 105.283 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 211.7852 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ed07408-5e7a-4e9b-bcf9-0197a4fe22c8")
+		)
+		(pin "1"
+			(uuid "ec26f2d7-485f-4ce1-82b8-5f4e068bd31c")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
+					(reference "C24")
 					(unit 1)
 				)
 			)
