@@ -1379,6 +1379,17 @@
 				)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 130.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ecaae106-ba41-40e9-9ba4-37ac2ccb1670")
 		)
@@ -1721,6 +1732,17 @@
 				)
 			)
 		)
+		(property "LSCS PN" ""
+			(at 187.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "40e89cb6-454c-462c-aaca-514ebc2b0d25")
 		)
@@ -1802,6 +1824,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 187.96 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 187.96 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1978,6 +2011,17 @@
 			)
 		)
 		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
+			(at 130.81 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS PN" ""
 			(at 130.81 102.87 0)
 			(hide yes)
 			(show_name no)

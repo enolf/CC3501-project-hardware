@@ -639,6 +639,360 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE SIZE/DIMENSION",
+          "name": "CASE SIZE/DIMENSION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE/PACKAGE",
+          "name": "CASE/PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENT TYPE",
+          "name": "COMPONENT TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPOSITION",
+          "name": "COMPOSITION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACT PLATING",
+          "name": "CONTACT PLATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET URL",
+          "name": "DATASHEET URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET VERSION",
+          "name": "DATASHEET VERSION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEPTH",
+          "name": "DEPTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESIGN ITEM ID",
+          "name": "DESIGN ITEM ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIELECTRIC",
+          "name": "DIELECTRIC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ELEMENT14 ITEM",
+          "name": "ELEMENT14 ITEM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAPACITANCE",
+          "name": "CAPACITANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE CODE (IMPERIAL)",
+          "name": "CASE CODE (IMPERIAL)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATESTREVISIONDATE",
+          "name": "LATESTREVISIONDATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATESTREVISIONNOTE",
+          "name": "LATESTREVISIONNOTE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PN",
+          "name": "LCSC PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD FREE",
+          "name": "LEAD FREE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LENGTH",
+          "name": "LENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER URL",
+          "name": "MANUFACTURER URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX OPERATING TEMPERATURE",
+          "name": "MAX OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MILITARY STANDARD",
+          "name": "MILITARY STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MIN OPERATING TEMPERATURE",
+          "name": "MIN OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNT",
+          "name": "MOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF PINS",
+          "name": "NUMBER OF PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE QUANTITY",
+          "name": "PACKAGE QUANTITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGING",
+          "name": "PACKAGING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN COUNT",
+          "name": "PIN COUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINS",
+          "name": "PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER RATING",
+          "name": "POWER RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PUBLISHER",
+          "name": "PUBLISHER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RADIATION HARDENING",
+          "name": "RADIATION HARDENING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RATED VOLTAGE",
+          "name": "RATED VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RESISTANCE",
+          "name": "RESISTANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SOURCE",
+          "name": "SOURCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE COEFFICIENT",
+          "name": "TEMPERATURE COEFFICIENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TERMINATION",
+          "name": "TERMINATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE (%)",
+          "name": "TOLERANCE (%)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING",
+          "name": "VOLTAGE RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING (DC)",
+          "name": "VOLTAGE RATING (DC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WEIGHT",
+          "name": "WEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WIDTH",
+          "name": "WIDTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE CODE (METRIC)",
+          "name": "CASE CODE (METRIC)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -697,7 +1051,7 @@
         "uuid": "4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR46-50,JP2-6,R21-23",
     "variants": []
   },
   "sheets": [
@@ -722,7 +1076,7 @@
       "TFT Display"
     ],
     [
-      "f5f6f35f-fbe1-46fc-8d20-3290a72a146a",
+      "e1a9d08e-ba40-4b8c-be98-880bad40ebcd",
       "RFID"
     ]
   ],
