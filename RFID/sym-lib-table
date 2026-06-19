@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CE-PiicoDev-RFID-Reader-Writer-cache") (type "Legacy") (uri "C:/Users/nilse/Downloads/CE-PiicoDev-RFID-Module-main/CE-PiicoDev-RFID-Module-main/PCB/CE-PiicoDev-RFID-Reader-Writer-cache.lib") (options "") (descr "Legacy project cache library"))
+)
