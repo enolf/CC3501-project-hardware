@@ -4578,16 +4578,8 @@
 		(uuid "395f41fc-6084-4ef6-9b5f-14d61074dc5b")
 	)
 	(no_connect
-		(at 254 74.93)
-		(uuid "3cb6e84b-78ff-42dc-a27e-61ec290f80e1")
-	)
-	(no_connect
 		(at 45.72 62.23)
 		(uuid "3f0961aa-7949-401a-a86d-47e5893d6457")
-	)
-	(no_connect
-		(at 254 72.39)
-		(uuid "3ff004d5-c739-4114-808f-0740395cb894")
 	)
 	(no_connect
 		(at 254 115.57)
@@ -4602,10 +4594,6 @@
 		(uuid "606b1db4-8984-42d6-a7e3-74823456e473")
 	)
 	(no_connect
-		(at 254 64.77)
-		(uuid "8a14332d-17a6-46fc-b5d6-8e0715bfb85e")
-	)
-	(no_connect
 		(at 254 118.11)
 		(uuid "8b7e6074-0f84-47a5-bb7d-75067fe191cb")
 	)
@@ -4616,10 +4604,6 @@
 	(no_connect
 		(at 254 82.55)
 		(uuid "9b9bb6c6-9267-4981-98fc-3bf6ddaa5ddb")
-	)
-	(no_connect
-		(at 254 67.31)
-		(uuid "cf44fd73-d2bb-4764-9885-cc477b30ff37")
 	)
 	(wire
 		(pts
@@ -4643,7 +4627,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 92.71) (xy 274.32 92.71)
+			(xy 254 92.71) (xy 256.54 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4793,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 72.39) (xy 256.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c485f7-c391-49d4-a4be-acb0365275df")
+	)
+	(wire
+		(pts
 			(xy 142.24 36.83) (xy 154.94 36.83)
 		)
 		(stroke
@@ -4850,6 +4844,16 @@
 			(type default)
 		)
 		(uuid "2e7fe6f2-49a3-48c8-8aca-782c15bac2dc")
+	)
+	(wire
+		(pts
+			(xy 254 74.93) (xy 256.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f6bd3e-04f2-4eb1-b426-6b05eb5b7b0d")
 	)
 	(wire
 		(pts
@@ -5053,7 +5057,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 87.63) (xy 274.32 87.63)
+			(xy 254 87.63) (xy 256.54 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5223,6 +5227,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 67.31) (xy 256.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864c7a65-e0bf-4b73-bd3e-e72e388ffd31")
+	)
+	(wire
+		(pts
 			(xy 195.58 120.65) (xy 203.2 120.65)
 		)
 		(stroke
@@ -5300,6 +5314,16 @@
 			(type default)
 		)
 		(uuid "8d037bb9-ed4c-4f44-8090-e05e22e6d755")
+	)
+	(wire
+		(pts
+			(xy 254 64.77) (xy 256.54 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd7b09f-74bc-48a0-b298-dd77db1a886d")
 	)
 	(wire
 		(pts
@@ -5463,7 +5487,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 95.25) (xy 274.32 95.25)
+			(xy 254 95.25) (xy 256.54 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5841,8 +5865,28 @@
 		)
 		(uuid "0553b8d6-e325-43af-a54b-cba5c44dd961")
 	)
+	(label "TFT_MOSI"
+		(at 60.96 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "109d4db4-ec8f-4386-958e-e8f7fce1279b")
+	)
+	(label "RFID_IQR"
+		(at 82.55 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11cd8f07-b26a-4819-9968-b5338926b673")
+	)
 	(label "Limit_Switch"
-		(at 256.54 57.15 0)
+		(at 256.54 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5861,7 +5905,7 @@
 		)
 		(uuid "158cc022-25ae-4a8e-975e-0e9c28bb1d93")
 	)
-	(label "TX"
+	(label "UART_TX"
 		(at 166.37 116.84 180)
 		(effects
 			(font
@@ -5870,6 +5914,16 @@
 			(justify right bottom)
 		)
 		(uuid "15e3b245-21d0-4868-8617-116761fde04b")
+	)
+	(label "LCD_Data{slash}CMD"
+		(at 24.13 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "177a7357-b382-4507-947c-20429ffff774")
 	)
 	(label "QSPI_SD1"
 		(at 191.77 87.63 0)
@@ -5891,6 +5945,16 @@
 		)
 		(uuid "1ea358de-c3a5-4c7d-bd6d-a502dfcc8f67")
 	)
+	(label "TFT_CLK"
+		(at 24.13 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f11e455-e949-4428-b52c-06069c96a17f")
+	)
 	(label "SW1"
 		(at 256.54 85.09 0)
 		(effects
@@ -5902,7 +5966,7 @@
 		(uuid "237d57f6-5157-4248-8c5e-d3261201be3f")
 	)
 	(label "Temp_Data"
-		(at 256.54 59.69 0)
+		(at 256.54 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5911,7 +5975,17 @@
 		)
 		(uuid "24096485-6d45-4183-91f8-fa0d845d6c37")
 	)
-	(label "Disp_LED"
+	(label "TFT_CLK"
+		(at 24.13 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ac6037c-46a3-4981-9af4-e5ffeda09be3")
+	)
+	(label "LCD_LED"
 		(at 256.54 102.87 0)
 		(effects
 			(font
@@ -5921,8 +5995,8 @@
 		)
 		(uuid "3172e752-fd38-4064-b2a9-75f409e79239")
 	)
-	(label "LCD_CLK"
-		(at 274.32 92.71 0)
+	(label "TFT_CLK"
+		(at 256.54 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5941,7 +6015,17 @@
 		)
 		(uuid "32891183-29cf-4b45-a15d-b726999b6fad")
 	)
-	(label "Disp_Data{slash}CMD"
+	(label "SD_CS"
+		(at 60.96 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "346f2126-5b1d-49bf-9ede-290bafe68aab")
+	)
+	(label "LCD_Data{slash}CMD"
 		(at 256.54 97.79 0)
 		(effects
 			(font
@@ -5951,8 +6035,28 @@
 		)
 		(uuid "38f92c20-6e74-499f-9682-a2f8f89adbb8")
 	)
-	(label "LCD_MOSI"
-		(at 274.32 95.25 0)
+	(label "RFID_SCL"
+		(at 82.55 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43e1ed23-1b19-4edf-ad63-734febc33966")
+	)
+	(label "TFT_MOSI"
+		(at 24.13 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a12646f-36b2-4e2e-8fbb-ee45e34112ab")
+	)
+	(label "TFT_MOSI"
+		(at 256.54 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5991,6 +6095,16 @@
 		)
 		(uuid "52c34855-8315-4c3c-807e-c68f76be3182")
 	)
+	(label "RFID_IQR"
+		(at 256.54 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "531544f2-93b5-4de6-ba59-86fca564588c")
+	)
 	(label "Temp_Pullup"
 		(at 35.56 157.48 180)
 		(effects
@@ -6001,8 +6115,18 @@
 		)
 		(uuid "59ff749b-be23-4742-bd59-1de50a152e7e")
 	)
-	(label "LCD_MISO"
-		(at 274.32 87.63 0)
+	(label "TFT_MOSI"
+		(at 24.13 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b594dd9-c7e1-44ae-8f64-d4bdec807c66")
+	)
+	(label "TFT_MISO"
+		(at 256.54 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6010,6 +6134,16 @@
 			(justify left bottom)
 		)
 		(uuid "601c1dec-0216-4878-b9f8-651aaae99130")
+	)
+	(label "UART_TX"
+		(at 256.54 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6120afb6-03b4-4935-9dc3-694155ef3bbc")
 	)
 	(label "XOUT"
 		(at 196.85 110.49 0)
@@ -6031,8 +6165,18 @@
 		)
 		(uuid "6595729f-f89d-4508-92f9-cd6530c5adb6")
 	)
-	(label "RX"
-		(at 256.54 49.53 0)
+	(label "HX_Data"
+		(at 82.55 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65c4a40d-bd48-424c-8557-867f15a9fbce")
+	)
+	(label "RFID_SCL"
+		(at 256.54 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6040,6 +6184,16 @@
 			(justify left bottom)
 		)
 		(uuid "6658dceb-cba0-4b56-823f-146cfe081e38")
+	)
+	(label "LCD_CS"
+		(at 24.13 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "695d0cbc-a71f-4daf-95fb-c94c8180ebc4")
 	)
 	(label "QSPI_SD3"
 		(at 166.37 111.76 180)
@@ -6061,6 +6215,16 @@
 		)
 		(uuid "73abfdcb-0703-44b9-a2fd-7feac304a2fe")
 	)
+	(label "TFT_CLK"
+		(at 60.96 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "788a2431-2a5f-43b6-af3b-d6effd0473b6")
+	)
 	(label "USB_D_P"
 		(at 50.8 49.53 0)
 		(effects
@@ -6081,7 +6245,7 @@
 		)
 		(uuid "7e4ebb02-1685-4b71-b34b-3f88cb20d94a")
 	)
-	(label "Disp_RESET"
+	(label "LCD_RESET"
 		(at 256.54 100.33 0)
 		(effects
 			(font
@@ -6090,6 +6254,16 @@
 			(justify left bottom)
 		)
 		(uuid "83ed2850-ce01-4581-aa3f-98ffe5134747")
+	)
+	(label "HX_CLK"
+		(at 82.55 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8458b2b0-f166-4ecc-a3a1-2f01683faf66")
 	)
 	(label "USB_D_N"
 		(at 123.19 66.04 0)
@@ -6102,7 +6276,7 @@
 		(uuid "892150fe-ac0f-4ccf-85ce-bce58d765fa5")
 	)
 	(label "HX_CLK"
-		(at 256.54 54.61 0)
+		(at 256.54 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6111,8 +6285,18 @@
 		)
 		(uuid "8c3b71f5-7320-4f2e-9a8c-c548e8019067")
 	)
+	(label "RFID_RST"
+		(at 82.55 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91e2f5f3-4785-47fd-9eb2-5d4deb7b81fc")
+	)
 	(label "Temp_Pullup"
-		(at 256.54 62.23 0)
+		(at 256.54 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6120,6 +6304,16 @@
 			(justify left bottom)
 		)
 		(uuid "990e1922-293e-4816-89a8-b9038d53ce47")
+	)
+	(label "TFT_MISO"
+		(at 60.96 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99f4b9c5-a8ab-43e6-b5f6-91af89ba1a96")
 	)
 	(label "QSPI_SD3"
 		(at 191.77 92.71 0)
@@ -6151,6 +6345,16 @@
 		)
 		(uuid "9d39fcf4-621c-4e18-aa2a-76570151e3b0")
 	)
+	(label "TFT_MISO"
+		(at 24.13 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e776f7e-aabb-4acf-994f-e7849489337a")
+	)
 	(label "QSPI_SD2"
 		(at 166.37 109.22 180)
 		(effects
@@ -6171,8 +6375,8 @@
 		)
 		(uuid "a6eba953-fae3-416d-8fbe-43cf79c97525")
 	)
-	(label "TX"
-		(at 256.54 46.99 0)
+	(label "RFID_SDA"
+		(at 256.54 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6181,7 +6385,7 @@
 		)
 		(uuid "a93582b3-80a6-4da5-be76-80d95a6243c2")
 	)
-	(label "RX"
+	(label "UART_RX"
 		(at 166.37 119.38 180)
 		(effects
 			(font
@@ -6200,6 +6404,26 @@
 			(justify right bottom)
 		)
 		(uuid "bd7b1b81-6db6-446f-956f-b7c6f6ba38cb")
+	)
+	(label "Touch_CS"
+		(at 24.13 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfdbb014-b073-41ef-9ebf-f31573935d97")
+	)
+	(label "LCD_RESET"
+		(at 24.13 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2acdfe0-cdd1-4240-8e0a-30f426cdcab7")
 	)
 	(label "SWCLK"
 		(at 196.85 118.11 0)
@@ -6221,7 +6445,27 @@
 		)
 		(uuid "cd4ef5db-54ff-4667-b671-ab81ee1ca7e3")
 	)
-	(label "Disp_CS"
+	(label "TFT_MISO"
+		(at 24.13 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ced01314-98d2-40cf-8ca4-2c7bb143a24b")
+	)
+	(label "UART_RX"
+		(at 256.54 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d35fb4f2-c3e6-4140-a4fc-44db0592a98d")
+	)
+	(label "LCD_CS"
 		(at 256.54 90.17 0)
 		(effects
 			(font
@@ -6240,6 +6484,26 @@
 			(justify right bottom)
 		)
 		(uuid "d75dbb3e-5fde-4f08-9878-7dbe090d4242")
+	)
+	(label "Touch_IRQ"
+		(at 24.13 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8d2a66a-8e23-4f87-bff6-267e283a433f")
+	)
+	(label "RFID_SDA"
+		(at 82.55 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db760f5c-626a-495a-b246-c2e5715c1708")
 	)
 	(label "QSPI_SD0"
 		(at 166.37 104.14 180)
@@ -6272,7 +6536,7 @@
 		(uuid "e5acd594-2e79-4192-b062-7e8d234b5c15")
 	)
 	(label "HX_Data"
-		(at 256.54 52.07 0)
+		(at 256.54 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6280,6 +6544,16 @@
 			(justify left bottom)
 		)
 		(uuid "f209576c-9d89-453c-aa7d-eb095ba6479d")
+	)
+	(label "RFID_RST"
+		(at 256.54 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6c7104d-cbfa-4e2f-9ed8-e561ec3af465")
 	)
 	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
@@ -15343,8 +15617,8 @@
 		)
 	)
 	(sheet
-		(at 67.31 100.33)
-		(size 27.94 29.21)
+		(at 82.55 115.57)
+		(size 21.59 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15355,11 +15629,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 200 255 0 1)
 		)
 		(uuid "0c27bcac-fbf5-401f-bcb4-99ca27aa5914")
 		(property "Sheetname" "Load Cell"
-			(at 67.31 99.6184 0)
+			(at 82.55 114.8584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15370,7 +15644,7 @@
 			)
 		)
 		(property "Sheetfile" "load_cell.kicad_sch"
-			(at 67.31 130.1246 0)
+			(at 82.55 123.7746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15381,7 +15655,7 @@
 			)
 		)
 		(pin "HX_CLK" input
-			(at 67.31 105.41 180)
+			(at 82.55 120.65 180)
 			(uuid "38507c69-3fc5-4c60-99e2-53396e63650c")
 			(effects
 				(font
@@ -15391,7 +15665,7 @@
 			)
 		)
 		(pin "HX_Data" input
-			(at 67.31 107.95 180)
+			(at 82.55 118.11 180)
 			(uuid "95c1aaf6-43af-41dd-8ab0-09c9cb36ebe2")
 			(effects
 				(font
@@ -15409,8 +15683,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 100.33)
-		(size 36.83 29.21)
+		(at 24.13 100.33)
+		(size 36.83 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15421,11 +15695,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 0 200 255 1)
 		)
 		(uuid "50ab5461-2300-442b-bf4b-f1a79527a3c6")
 		(property "Sheetname" "TFT Display"
-			(at 17.78 99.6184 0)
+			(at 24.13 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15436,7 +15710,7 @@
 			)
 		)
 		(property "Sheetfile" "tft_display.kicad_sch"
-			(at 17.78 130.1246 0)
+			(at 24.13 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15446,18 +15720,8 @@
 				(justify left top)
 			)
 		)
-		(pin "LCD_GND" input
-			(at 17.78 127 180)
-			(uuid "8f2c7d78-1a5b-4bae-9c66-959b6efeed85")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCD_DC" input
-			(at 17.78 124.46 180)
+			(at 24.13 129.54 180)
 			(uuid "16d59d84-b77d-4831-b967-a127f7db9e90")
 			(effects
 				(font
@@ -15466,18 +15730,8 @@
 				(justify left)
 			)
 		)
-		(pin "LCD_VCC" input
-			(at 17.78 121.92 180)
-			(uuid "05b5e418-8793-436a-9b1c-bdf90d4f8de0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCD_CS" input
-			(at 17.78 119.38 180)
+			(at 24.13 124.46 180)
 			(uuid "e082e4db-80ca-46c9-9891-edd27fed408b")
 			(effects
 				(font
@@ -15487,7 +15741,7 @@
 			)
 		)
 		(pin "RESET" input
-			(at 17.78 116.84 180)
+			(at 24.13 127 180)
 			(uuid "862b6568-69d2-4673-8304-b69863ce837c")
 			(effects
 				(font
@@ -15497,7 +15751,7 @@
 			)
 		)
 		(pin "LCD_SCK" input
-			(at 17.78 114.3 180)
+			(at 24.13 116.84 180)
 			(uuid "7779f2d4-df65-4f9a-8565-53842df31117")
 			(effects
 				(font
@@ -15507,7 +15761,7 @@
 			)
 		)
 		(pin "LCD_MOSI" input
-			(at 17.78 111.76 180)
+			(at 24.13 119.38 180)
 			(uuid "02db18f5-f098-4fa1-8fd8-e1bbcc723adc")
 			(effects
 				(font
@@ -15517,17 +15771,17 @@
 			)
 		)
 		(pin "SD_MOSI" input
-			(at 17.78 109.22 180)
+			(at 60.96 105.41 0)
 			(uuid "91ab9881-4c6d-4f6e-bf4b-4bfa73238dc3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "T_CLK" input
-			(at 17.78 106.68 180)
+			(at 24.13 104.14 180)
 			(uuid "e939c221-cc69-4b3d-9521-c1673c59a649")
 			(effects
 				(font
@@ -15537,7 +15791,7 @@
 			)
 		)
 		(pin "T_DO" input
-			(at 17.78 104.14 180)
+			(at 24.13 106.68 180)
 			(uuid "66f70b87-bf75-4b12-9a3c-c73059d4291b")
 			(effects
 				(font
@@ -15547,7 +15801,7 @@
 			)
 		)
 		(pin "T_IRQ" input
-			(at 17.78 101.6 180)
+			(at 24.13 101.6 180)
 			(uuid "1753bce2-bdb9-4f63-a87f-6269fd78f480")
 			(effects
 				(font
@@ -15557,7 +15811,7 @@
 			)
 		)
 		(pin "SD_CS" input
-			(at 54.61 102.87 0)
+			(at 60.96 110.49 0)
 			(uuid "6de33e77-0fcb-4229-8b08-61a80eaecece")
 			(effects
 				(font
@@ -15567,7 +15821,7 @@
 			)
 		)
 		(pin "SD_SCK" input
-			(at 54.61 110.49 0)
+			(at 60.96 102.87 0)
 			(uuid "95237db2-19d7-4d6b-99d1-4ee9c82c04e1")
 			(effects
 				(font
@@ -15577,37 +15831,37 @@
 			)
 		)
 		(pin "T_CS" input
-			(at 31.75 100.33 90)
+			(at 24.13 111.76 180)
 			(uuid "b9e0eff1-4959-4328-a4ff-9c33d09c8753")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "T_DIN" input
-			(at 34.29 100.33 90)
+			(at 24.13 109.22 180)
 			(uuid "a8f9a393-da9d-4b1f-bd55-7a1a272a6240")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "LCD_MISO" input
-			(at 54.61 119.38 0)
+			(at 24.13 121.92 180)
 			(uuid "067f489a-4931-46a4-9cbc-439a9b8302f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SD_MISO" input
-			(at 54.61 121.92 0)
+			(at 60.96 107.95 0)
 			(uuid "dacfb2d7-24fa-4615-8e8a-7c4be86309dd")
 			(effects
 				(font
@@ -15801,8 +16055,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 100.33)
-		(size 20.955 28.575)
+		(at 82.55 100.33)
+		(size 21.59 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15813,11 +16067,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 0 255 200 1)
 		)
 		(uuid "e1a9d08e-ba40-4b8c-be98-880bad40ebcd")
 		(property "Sheetname" "RFID"
-			(at 100.33 99.6184 0)
+			(at 82.55 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15827,8 +16081,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RFID/CE-PiicoDev-RFID-Reader-Writer.kicad_sch"
-			(at 100.33 129.4896 0)
+		(property "Sheetfile" "RFID\\CE-PiicoDev-RFID-Reader-Writer.kicad_sch"
+			(at 82.55 112.3446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15840,7 +16094,7 @@
 			)
 		)
 		(pin "RFID_SDA" input
-			(at 100.33 105.41 180)
+			(at 82.55 102.87 180)
 			(uuid "beba27a1-5a4b-4013-a489-0bfcbeec6d62")
 			(effects
 				(font
@@ -15849,8 +16103,8 @@
 				(justify left)
 			)
 		)
-		(pin "RFID_INT" input
-			(at 100.33 110.49 180)
+		(pin "RFID_IQR" input
+			(at 82.55 107.95 180)
 			(uuid "7566f2ec-ab91-4123-b8ba-8226e754331b")
 			(effects
 				(font
@@ -15860,7 +16114,7 @@
 			)
 		)
 		(pin "RFID_SCL" input
-			(at 100.33 115.57 180)
+			(at 82.55 105.41 180)
 			(uuid "c47d4bfb-8171-4169-a878-8d4adfc7f45b")
 			(effects
 				(font
@@ -15870,7 +16124,7 @@
 			)
 		)
 		(pin "RFID_~{RST}" input
-			(at 100.33 120.65 180)
+			(at 82.55 110.49 180)
 			(uuid "cbf5c1ca-ee84-407b-9a72-dc95390972bb")
 			(effects
 				(font
