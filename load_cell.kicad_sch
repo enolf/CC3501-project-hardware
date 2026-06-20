@@ -1582,12 +1582,6 @@
 		(uuid "1e0e2363-a439-486e-b436-b5312e3f422b")
 	)
 	(junction
-		(at 115.57 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b79db31-494b-46f6-824a-a256734d6bc1")
-	)
-	(junction
 		(at 102.87 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1717,16 +1711,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 116.84) (xy 138.43 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb0fd80-dfe7-45da-9b60-147fa5b1f823")
-	)
-	(wire
-		(pts
 			(xy 72.39 119.38) (xy 73.66 119.38)
 		)
 		(stroke
@@ -1734,16 +1718,6 @@
 			(type default)
 		)
 		(uuid "1f5691df-5da9-4950-bce9-d83ef9efd8c0")
-	)
-	(wire
-		(pts
-			(xy 115.57 97.79) (xy 115.57 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe917e5-46d4-4a02-8a1e-85c4f0871247")
 	)
 	(wire
 		(pts
@@ -1827,16 +1801,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 115.57) (xy 118.11 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "475e28d3-d671-4105-9b36-d82314e23b99")
-	)
-	(wire
-		(pts
 			(xy 140.97 69.85) (xy 140.97 74.93)
 		)
 		(stroke
@@ -1864,16 +1828,6 @@
 			(type default)
 		)
 		(uuid "5e02e1b6-060e-4d7d-91b8-e6c33eac3571")
-	)
-	(wire
-		(pts
-			(xy 118.11 115.57) (xy 121.92 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63432531-2d74-4088-81e2-8a47bdb806f1")
 	)
 	(wire
 		(pts
@@ -1967,6 +1921,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 97.79) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907c8033-19af-4bdf-99c4-038c11597244")
+	)
+	(wire
+		(pts
 			(xy 102.87 104.14) (xy 102.87 105.41)
 		)
 		(stroke
@@ -2057,16 +2021,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 105.41) (xy 115.57 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b956df52-16a3-4639-97c9-f63c34c16bcf")
-	)
-	(wire
-		(pts
 			(xy 102.87 105.41) (xy 90.17 105.41)
 		)
 		(stroke
@@ -2124,16 +2078,6 @@
 			(type default)
 		)
 		(uuid "d7ba6139-7ef2-40f9-ada2-67ecbb5e2418")
-	)
-	(wire
-		(pts
-			(xy 115.57 105.41) (xy 115.57 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9115209-74d9-4f12-8984-50d918a1773d")
 	)
 	(wire
 		(pts
@@ -2397,6 +2341,83 @@
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0c27bcac-fbf5-401f-bcb4-99ca27aa5914"
 					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02fee5c9-1f15-4191-9b39-8e931fc9ef30")
+		(property "Reference" "#PWR082"
+			(at 115.57 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c44dfb68-cf9a-452d-a39a-055b623cf9f1")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0c27bcac-fbf5-401f-bcb4-99ca27aa5914"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2700,8 +2721,7 @@
 			)
 		)
 		(property "LCSC PN" "C25076"
-			(at 77.47 127 90)
-			(hide yes)
+			(at 77.724 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3300,8 +3320,7 @@
 			)
 		)
 		(property "LCSC PN" "C15525"
-			(at 99.06 69.85 90)
-			(hide yes)
+			(at 98.806 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3445,7 +3464,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5375069b-7734-475b-ab2d-e221dcf9e14d")
 		(property "Reference" "R17"
 			(at 105.41 99.0599 0)
@@ -3503,8 +3521,7 @@
 			)
 		)
 		(property "LCSC PN" "C17414"
-			(at 102.87 100.33 0)
-			(hide yes)
+			(at 107.95 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4071,7 +4088,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "782cdb47-b4f6-41a7-9f69-1199098da8ef")
 		(property "Reference" "R16"
 			(at 105.41 88.8999 0)
@@ -4129,8 +4145,7 @@
 			)
 		)
 		(property "LCSC PN" "C22809"
-			(at 102.87 90.17 0)
-			(hide yes)
+			(at 107.696 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4329,8 +4344,7 @@
 			)
 		)
 		(property "LCSC PN" "C25076"
-			(at 77.47 119.38 90)
-			(hide yes)
+			(at 77.47 113.538 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4474,10 +4488,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b6c7945-cc05-49b0-8598-332ae197879b")
 		(property "Reference" "C22"
-			(at 119.38 92.7099 0)
+			(at 118.872 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4488,7 +4501,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 119.38 95.2499 0)
+			(at 118.872 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4532,8 +4545,7 @@
 			)
 		)
 		(property "LCSC PN" "C1525"
-			(at 115.57 93.98 0)
-			(hide yes)
+			(at 121.92 96.2661 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4677,10 +4689,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a3ae2e06-3972-417d-b61c-b08e71aee63b")
 		(property "Reference" "C20"
-			(at 92.71 121.9199 0)
+			(at 92.202 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4691,7 +4702,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 92.71 124.4599 0)
+			(at 92.202 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4735,8 +4746,7 @@
 			)
 		)
 		(property "LCSC PN" "C1525"
-			(at 88.9 123.19 0)
-			(hide yes)
+			(at 94.742 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4904,7 +4914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 57.15 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5030,6 +5040,83 @@
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0c27bcac-fbf5-401f-bcb4-99ca27aa5914"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0d65ca5-93fd-46c8-9746-40474338f3ed")
+		(property "Reference" "#PWR043"
+			(at 138.43 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 120.904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a36a6372-bafc-4fe4-8cfc-4a425b2b8e7f")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0c27bcac-fbf5-401f-bcb4-99ca27aa5914"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
