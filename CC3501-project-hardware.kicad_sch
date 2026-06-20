@@ -4524,12 +4524,6 @@
 		(uuid "bca6c05e-4070-4307-84a1-338f8cc3e340")
 	)
 	(junction
-		(at 69.85 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1df6edf-140f-4cbb-b509-d81adee9e0a1")
-	)
-	(junction
 		(at 215.9 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5084,16 +5078,6 @@
 			(type default)
 		)
 		(uuid "642dc527-1ff6-4caf-bf8a-b0c7e31f9c68")
-	)
-	(wire
-		(pts
-			(xy 69.85 166.37) (xy 71.12 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64808079-5a92-4c34-ac3e-9e862b54b800")
 	)
 	(wire
 		(pts
@@ -15561,8 +15545,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 163.83)
-		(size 13.335 5.715)
+		(at 65.405 170.815)
+		(size 19.685 5.715)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15577,7 +15561,7 @@
 		)
 		(uuid "0bf64f49-ae63-4b77-9d9b-174c7658c64d")
 		(property "Sheetname" "DS18B20_breakout_board"
-			(at 71.12 163.1184 0)
+			(at 65.405 170.1034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15588,7 +15572,7 @@
 			)
 		)
 		(property "Sheetfile" "DS18B20_Breakout_Board.kicad_sch"
-			(at 71.12 170.1296 0)
+			(at 65.405 177.1146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15597,16 +15581,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "Data_Line" input
-			(at 71.12 166.37 180)
-			(uuid "0dbea59d-743d-415a-82d0-65a2dbedc8bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
