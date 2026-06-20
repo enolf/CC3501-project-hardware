@@ -5930,7 +5930,7 @@
 		(uuid "1ea358de-c3a5-4c7d-bd6d-a502dfcc8f67")
 	)
 	(label "TFT_CLK"
-		(at 24.13 104.14 180)
+		(at 24.13 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6100,7 +6100,7 @@
 		(uuid "59ff749b-be23-4742-bd59-1de50a152e7e")
 	)
 	(label "TFT_MOSI"
-		(at 24.13 109.22 180)
+		(at 24.13 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6198,6 +6198,16 @@
 			(justify left bottom)
 		)
 		(uuid "73abfdcb-0703-44b9-a2fd-7feac304a2fe")
+	)
+	(label "LCD_LED"
+		(at 24.13 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7446e8e1-ce3f-4393-a4d8-95247cb4dd14")
 	)
 	(label "TFT_CLK"
 		(at 60.96 102.87 0)
@@ -6390,7 +6400,7 @@
 		(uuid "bd7b1b81-6db6-446f-956f-b7c6f6ba38cb")
 	)
 	(label "Touch_CS"
-		(at 24.13 111.76 180)
+		(at 24.13 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6430,7 +6440,7 @@
 		(uuid "cd4ef5db-54ff-4667-b671-ab81ee1ca7e3")
 	)
 	(label "TFT_MISO"
-		(at 24.13 106.68 180)
+		(at 24.13 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14189,7 +14199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 34.29 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15756,7 +15766,7 @@
 			)
 		)
 		(pin "T_CLK" input
-			(at 24.13 104.14 180)
+			(at 24.13 111.76 180)
 			(uuid "e939c221-cc69-4b3d-9521-c1673c59a649")
 			(effects
 				(font
@@ -15766,7 +15776,7 @@
 			)
 		)
 		(pin "T_DO" input
-			(at 24.13 106.68 180)
+			(at 24.13 104.14 180)
 			(uuid "66f70b87-bf75-4b12-9a3c-c73059d4291b")
 			(effects
 				(font
@@ -15806,7 +15816,7 @@
 			)
 		)
 		(pin "T_CS" input
-			(at 24.13 111.76 180)
+			(at 24.13 109.22 180)
 			(uuid "b9e0eff1-4959-4328-a4ff-9c33d09c8753")
 			(effects
 				(font
@@ -15816,7 +15826,7 @@
 			)
 		)
 		(pin "T_DIN" input
-			(at 24.13 109.22 180)
+			(at 24.13 106.68 180)
 			(uuid "a8f9a393-da9d-4b1f-bd55-7a1a272a6240")
 			(effects
 				(font
@@ -15843,6 +15853,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "LCD_LED" input
+			(at 24.13 132.08 180)
+			(uuid "ee3176e3-145e-41ec-9619-8646e3fe4361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
