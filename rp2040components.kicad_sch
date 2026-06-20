@@ -3510,8 +3510,7 @@
 			)
 		)
 		(property "LCSC PN" "C25803"
-			(at 242.57 106.68 0)
-			(hide yes)
+			(at 247.65 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4458,8 +4457,7 @@
 			)
 		)
 		(property "LCSC PN" "C318884"
-			(at 227.33 106.68 0)
-			(hide yes)
+			(at 228.092 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4776,8 +4774,7 @@
 			)
 		)
 		(property "LCSC PN" "C1525"
-			(at 255.27 115.57 0)
-			(hide yes)
+			(at 258.826 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6966,8 +6963,7 @@
 			)
 		)
 		(property "LCSC PN" "C318884"
-			(at 115.57 48.26 0)
-			(hide yes)
+			(at 115.062 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

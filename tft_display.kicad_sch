@@ -2476,16 +2476,6 @@
 		)
 		(uuid "4016626b-a682-4f2e-8db8-81ed87d3e066")
 	)
-	(text "ESD series resistors 22 - 33 ohm on all signal lines right before JST connector"
-		(exclude_from_sim no)
-		(at 226.314 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "96f06048-4d7a-4be9-887f-cf26f93e8a8e")
-	)
 	(text "https://forum.pjrc.com/index.php?threads/display_ili9341.28106/#post-72889\nhttps://www.pjrc.com/store/display_ili9341_touch.html"
 		(exclude_from_sim no)
 		(at 171.45 135.382 0)
@@ -2508,7 +2498,7 @@
 	)
 	(text "pull-up resistor connecting\nthis MISO line to the 3.3V net\nto prevent the display controller\nfrom holding the line hostage\nfrom the SD card"
 		(exclude_from_sim no)
-		(at 66.548 66.548 0)
+		(at 53.848 66.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2517,22 +2507,22 @@
 		(uuid "fb8a71c7-12c3-4bb8-a5c7-265c2514091c")
 	)
 	(junction
+		(at 213.36 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44800364-e02a-47b7-837b-7e1034d0cbfa")
+	)
+	(junction
 		(at 87.63 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08f119c6-d608-4635-8878-eaa10ecf3a5f")
+		(uuid "6455fdb2-2d61-4f7f-82f2-56b954721ac0")
 	)
 	(junction
-		(at 212.09 85.09)
+		(at 213.36 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6aec1f32-6d24-481d-87e3-bef6f0610e3d")
-	)
-	(junction
-		(at 212.09 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b584956-2892-41ee-b9b2-ef2000316ef6")
+		(uuid "f5881c86-3e7e-43e9-8c38-4abff71c54b4")
 	)
 	(no_connect
 		(at 184.15 90.17)
@@ -2552,13 +2542,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 74.93) (xy 101.6 74.93)
+			(xy 85.09 74.93) (xy 87.63 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04a70673-64d5-4185-9fcb-91318f619b98")
+	)
+	(wire
+		(pts
+			(xy 213.36 92.71) (xy 222.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056a4438-2d01-45a7-9315-7f02d80a8a9b")
 	)
 	(wire
 		(pts
@@ -2572,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 85.09) (xy 212.09 85.09)
+			(xy 208.28 85.09) (xy 213.36 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2602,16 +2602,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 87.63 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706e1366-ca9c-4c00-80fe-15e9930ecacb")
-	)
-	(wire
-		(pts
 			(xy 130.81 82.55) (xy 130.81 83.82)
 		)
 		(stroke
@@ -2629,16 +2619,6 @@
 			(type default)
 		)
 		(uuid "861ba895-e5bd-4356-8ada-83b3911e2ad9")
-	)
-	(wire
-		(pts
-			(xy 222.25 92.71) (xy 212.09 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eaa4f20-9750-40d3-a120-8d271d8228eb")
 	)
 	(wire
 		(pts
@@ -2662,13 +2642,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 85.09) (xy 214.63 85.09)
+			(xy 87.63 74.93) (xy 101.6 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7393057-e805-452e-8cc1-d8b874af95fc")
+		(uuid "ae963ac4-e2b6-4a15-b117-a367b82c4612")
 	)
 	(wire
 		(pts
@@ -2692,7 +2672,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 92.71) (xy 200.66 92.71)
+			(xy 213.36 85.09) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7032bc3-0da5-4830-b3b8-61210222fe60")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 213.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3072,209 +3062,6 @@
 		(uuid "fdd61689-6b8a-4d11-b71f-edf364a47e93")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 87.63 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0327a086-cfa6-4654-8ba7-caeb0f3a1183")
-		(property "Reference" "R26"
-			(at 90.17 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 90.17 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 89.408 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PN" "C17414"
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CAPACITANCE" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE SIZE/DIMENSION" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET URL" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET VERSION" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIELECTRIC" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER URL" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RATED VOLTAGE" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE (%)" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 87.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30e66bcc-b5c7-484d-8c39-4a5dcfd2ec8a")
-		)
-		(pin "2"
-			(uuid "af0112d0-143c-4952-80d2-8d638c3f4182")
-		)
-		(instances
-			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/50ab5461-2300-442b-bf4b-f1a79527a3c6"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 106.68 87.63 0)
 		(unit 1)
@@ -3308,7 +3095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 106.68 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3517,7 +3304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 106.68 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4092,7 +3879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 106.68 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4257,6 +4044,208 @@
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/50ab5461-2300-442b-bf4b-f1a79527a3c6"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 88.9 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8880e29f-b92f-4b41-a4d1-24bff097207f")
+		(property "Reference" "R20"
+			(at 210.82 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 210.82 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 215.138 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C17414"
+			(at 208.28 92.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CAPACITANCE" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CASE SIZE/DIMENSION" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DATASHEET URL" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DATASHEET VERSION" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER URL" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RATED VOLTAGE" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE (%)" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "389c0b4d-aa4e-4a27-949c-5667ae303e64")
+		)
+		(pin "1"
+			(uuid "e79791d0-3523-40be-b635-490c5cc46f82")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/50ab5461-2300-442b-bf4b-f1a79527a3c6"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4495,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d590fead-8d77-4e91-8f59-693ed3019df9")
 		(property "Reference" "Q3"
 			(at 226.06 83.8199 0)
@@ -4558,6 +4546,16 @@
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 219.71 85.09 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C15127"
+			(at 230.124 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4657,6 +4655,207 @@
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/50ab5461-2300-442b-bf4b-f1a79527a3c6"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f54b32e1-c3ed-48eb-b7bb-1d64169c264b")
+		(property "Reference" "R26"
+			(at 79.248 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 79.248 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 85.852 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C17414"
+			(at 81.788 71.8821 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CAPACITANCE" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CASE SIZE/DIMENSION" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DATASHEET URL" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DATASHEET VERSION" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER URL" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RATED VOLTAGE" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE (%)" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 87.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbaaefef-0fc4-424e-8601-e97e18c55459")
+		)
+		(pin "1"
+			(uuid "1847b54b-db17-4098-a34f-5306724e98b4")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/50ab5461-2300-442b-bf4b-f1a79527a3c6"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4993,209 +5192,6 @@
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/50ab5461-2300-442b-bf4b-f1a79527a3c6"
 					(reference "DS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 212.09 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7a62feb-5737-467a-b4a0-ede198900320")
-		(property "Reference" "R20"
-			(at 214.63 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 214.63 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 213.868 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PN" "C17414"
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CAPACITANCE" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE SIZE/DIMENSION" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET URL" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET VERSION" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIELECTRIC" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER URL" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RATED VOLTAGE" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE (%)" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 212.09 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0017649a-8c9a-44ec-b9e5-742286a8ee18")
-		)
-		(pin "2"
-			(uuid "28ccd507-c8c8-4d31-b440-d27a71a5aa32")
-		)
-		(instances
-			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/50ab5461-2300-442b-bf4b-f1a79527a3c6"
-					(reference "R20")
 					(unit 1)
 				)
 			)
