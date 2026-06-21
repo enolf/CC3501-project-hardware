@@ -2755,7 +2755,7 @@
 	)
 	(hierarchical_label "SD_SCK"
 		(shape input)
-		(at 101.6 46.99 180)
+		(at 101.6 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2821,7 +2821,7 @@
 	)
 	(hierarchical_label "SD_MOSI"
 		(shape input)
-		(at 101.6 41.91 180)
+		(at 101.6 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2920,7 +2920,7 @@
 	)
 	(hierarchical_label "SD_MISO"
 		(shape input)
-		(at 101.6 44.45 180)
+		(at 101.6 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2953,7 +2953,7 @@
 	)
 	(hierarchical_label "SD_CS"
 		(shape input)
-		(at 101.6 39.37 180)
+		(at 101.6 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4026,7 +4026,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 99.06 0)
+		(at 88.9 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4034,10 +4034,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "263d4668-0845-4e54-80a7-06f130071525")
 		(property "Reference" "#PWR010"
-			(at 88.9 105.41 0)
+			(at 88.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,17 +4047,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 104.14 0)
+			(at 83.566 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 99.06 0)
+			(at 88.9 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4069,7 +4069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 99.06 0)
+			(at 88.9 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4080,7 +4080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 99.06 0)
+			(at 88.9 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5799,7 +5799,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 95.25 0)
+		(at 88.9 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5810,7 +5810,7 @@
 		(fields_autoplaced yes)
 		(uuid "a76ae54c-339b-4024-9be9-e0d25909d9c7")
 		(property "Reference" "#PWR02"
-			(at 88.9 99.06 0)
+			(at 88.9 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,17 +5821,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 88.9 90.17 0)
+			(at 91.44 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 95.25 0)
+			(at 88.9 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 95.25 0)
+			(at 88.9 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,7 +5854,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 95.25 0)
+			(at 88.9 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
