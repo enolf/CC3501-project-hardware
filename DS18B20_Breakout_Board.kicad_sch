@@ -2912,7 +2912,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "baecc39b-85ec-4e6c-94c6-a0afb9a80feb")
@@ -3372,6 +3372,7 @@
 					(unit 1)
 					(variant
 						(name "important")
+						(on_board yes)
 					)
 				)
 			)

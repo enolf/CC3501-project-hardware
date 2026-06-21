@@ -2700,7 +2700,7 @@
 		)
 		(uuid "e14b82a2-2125-4eab-b0bc-449b525cb695")
 	)
-	(label "LCD_LED"
+	(label "LED"
 		(at 101.6 80.01 180)
 		(effects
 			(font
@@ -2710,7 +2710,7 @@
 		)
 		(uuid "07d06311-288f-45b6-8b8a-d790d695be3b")
 	)
-	(label "LCD_LED"
+	(label "LED"
 		(at 200.66 69.85 180)
 		(effects
 			(font
