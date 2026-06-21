@@ -3978,6 +3978,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C25")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -4182,6 +4185,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C34")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -4388,6 +4394,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "R25")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -4594,6 +4603,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "R24")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -4800,6 +4812,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C37")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -5006,6 +5021,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C36")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -5212,6 +5230,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C35")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -5418,6 +5439,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C38")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -5614,6 +5638,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "NT4")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -5818,6 +5845,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C33")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -6025,6 +6055,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C26")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -6229,6 +6262,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C28")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -6433,6 +6469,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C27")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -6639,6 +6678,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C29")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -6845,6 +6887,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C30")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -7051,6 +7096,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C23")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -7247,6 +7295,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "NT8")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -7443,6 +7494,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "NT9")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -7647,6 +7701,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "L2")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -7941,6 +7998,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -8137,6 +8197,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "NT10")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -8333,6 +8396,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "NT11")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -8539,6 +8605,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C31")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -8745,6 +8814,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C32")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "CE-PiicoDev-RFID-Reader-Writer"
@@ -9218,201 +9290,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 187.96 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d66e2f8-cd25-4364-8bfe-1046c20fd284")
-		(property "Reference" "Y3"
-			(at 198.12 99.314 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND23"
-			(at 198.12 101.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 187.96 116.84 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 187.96 119.38 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CAPACITANCE" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE SIZE/DIMENSION" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET URL" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET VERSION" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIELECTRIC" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER URL" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RATED VOLTAGE" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE (%)" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ecc494d2-9b15-44fb-869c-a3307a0d6caa")
-		)
-		(pin "2"
-			(uuid "309c41d2-bbfd-445d-b481-b2e26de6242d")
-		)
-		(pin "3"
-			(uuid "3eddf4fd-713f-4a07-ac9e-b11b8a6e9b8f")
-		)
-		(pin "4"
-			(uuid "178e9959-43c0-4c64-b71f-d8b1ac352240")
-		)
-		(instances
-			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
-					(reference "Y3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 104.14 105.41 0)
 		(unit 1)
@@ -9684,6 +9561,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "R22")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)
@@ -9884,6 +9764,135 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "R23")
 					(unit 1)
+					(variant
+						(name "important")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND23")
+		(at 187.96 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d81d60-4d4c-4d62-839f-bb176d5dbf83")
+		(property "Reference" "Y2"
+			(at 187.96 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND23"
+			(at 187.96 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 187.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(at 187.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 187.96 119.38 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 187.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "901c33af-7bac-4e4c-89fe-98559af724f8")
+		)
+		(pin "3"
+			(uuid "15a45f56-5e27-4fc3-8fcd-4bf4c78284fb")
+		)
+		(pin "2"
+			(uuid "afb4ccf8-b2c8-4857-b825-455da2ce6105")
+		)
+		(pin "1"
+			(uuid "fc6e56d3-03a8-42f6-804f-56b82cdf7e1d")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
+					(reference "Y2")
+					(unit 1)
+					(variant
+						(name "important")
+						(field
+							(name "LCSC PN")
+							(value "C113669 ")
+						)
+					)
 				)
 			)
 		)
@@ -10308,6 +10317,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "JP3")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)
@@ -10506,6 +10518,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "L3")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)
@@ -10654,8 +10669,7 @@
 			)
 		)
 		(property "LCSC PN" "C106203"
-			(at 195.58 107.95 0)
-			(hide yes)
+			(at 202.692 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10785,6 +10799,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "C24")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)
@@ -11132,6 +11149,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "JP2")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)
@@ -11332,6 +11352,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/e1a9d08e-ba40-4b8c-be98-880bad40ebcd"
 					(reference "R21")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)

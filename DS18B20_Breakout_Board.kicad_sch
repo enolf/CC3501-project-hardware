@@ -1511,6 +1511,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0bf64f49-ae63-4b77-9d9b-174c7658c64d"
 					(reference "JP1")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "DS18B20 Breakout Board"
@@ -2260,6 +2263,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0bf64f49-ae63-4b77-9d9b-174c7658c64d"
 					(reference "J2")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "DS18B20 Breakout Board"
@@ -2539,6 +2545,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0bf64f49-ae63-4b77-9d9b-174c7658c64d"
 					(reference "U2")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 			(project "DS18B20 Breakout Board"
@@ -2972,6 +2981,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/0bf64f49-ae63-4b77-9d9b-174c7658c64d"
 					(reference "J3")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)
