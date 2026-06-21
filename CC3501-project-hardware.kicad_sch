@@ -5426,6 +5426,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 124.46) (xy 168.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8883501-ae00-4fff-b1c8-cee85254e350")
+	)
+	(wire
+		(pts
 			(xy 228.6 130.81) (xy 228.6 133.35)
 		)
 		(stroke
@@ -5883,6 +5893,16 @@
 			(justify right bottom)
 		)
 		(uuid "0553b8d6-e325-43af-a54b-cba5c44dd961")
+	)
+	(label "RUN"
+		(at 166.37 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ea71f95-5b72-4e13-875c-4ebe89b9d2e7")
 	)
 	(label "TFT_MOSI"
 		(at 60.96 105.41 0)
@@ -16332,6 +16352,16 @@
 		(pin "SW1" input
 			(at 168.91 121.92 180)
 			(uuid "427e59e1-d066-475c-ad4b-066f89d840c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RUN" input
+			(at 168.91 124.46 180)
+			(uuid "7348e5aa-dc04-441a-a97c-4a7711afd9fc")
 			(effects
 				(font
 					(size 1.27 1.27)
