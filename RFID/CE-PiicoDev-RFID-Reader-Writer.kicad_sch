@@ -17008,7 +17008,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C113669 "
 			(at 187.96 104.14 0)
 			(hide yes)
 			(show_name no)
