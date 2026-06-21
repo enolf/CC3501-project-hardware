@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "4a2d49bb-8ba4-4c60-a8f0-05b8d2544445")
 	(paper "A4")
+	(title_block
+		(title "CC3501 Design Project")
+		(date "2026-06-22")
+		(rev "1")
+		(company "Alister, Damien, Nils")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names

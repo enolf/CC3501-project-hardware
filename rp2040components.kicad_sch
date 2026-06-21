@@ -5,7 +5,10 @@
 	(uuid "abf436f4-9eaa-46bf-bb06-9e43327381af")
 	(paper "A4")
 	(title_block
-		(title "RP2040 Components")
+		(title "CC3501 Design Project")
+		(date "2026-06-22")
+		(rev "1")
+		(company "Alister, Damien, Nils")
 	)
 	(lib_symbols
 		(symbol "Device:C"
