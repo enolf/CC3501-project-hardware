@@ -67793,6 +67793,17 @@
 		(layer "Dwgs.User")
 		(uuid "c808bfbd-3252-4153-b2a8-bdbd387d1a60")
 	)
+	(gr_rect
+		(start 123.5 25)
+		(end 208.5 81)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "41881da9-4dea-4aa1-a5ed-b1257308bbb5")
+	)
 	(image
 		(at 59 44.5)
 		(layer "F.Cu")
