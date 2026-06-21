@@ -1804,16 +1804,16 @@
 		(uuid "ff497aca-051d-4677-858a-74e82a1b2742")
 	)
 	(junction
+		(at 242.57 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "113e74f5-d434-4217-9d60-a7714bfcd9a9")
+	)
+	(junction
 		(at 161.29 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14cb1800-b8ed-4fea-9d5d-59a297611277")
-	)
-	(junction
-		(at 242.57 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e58bcab-ba94-4695-b206-2fa59df7cf35")
 	)
 	(junction
 		(at 137.16 53.34)
@@ -2489,6 +2489,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 116.84) (xy 242.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5354e15-893f-4ce4-90e5-876aef211890")
+	)
+	(wire
+		(pts
 			(xy 114.3 102.87) (xy 114.3 95.25)
 		)
 		(stroke
@@ -2496,16 +2506,6 @@
 			(type default)
 		)
 		(uuid "f8f1e16d-8880-43d4-aa8f-73535ea6368a")
-	)
-	(wire
-		(pts
-			(xy 234.95 106.68) (xy 242.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9691565-5229-4eaf-87a6-1996003b2af3")
 	)
 	(wire
 		(pts
@@ -4609,599 +4609,6 @@
 			(project "CC3501-project-hardware"
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/bf94317a-9dda-4934-8bf5-bd19b681ec92"
 					(reference "P2")
-					(unit 1)
-					(variant
-						(name "important")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "James Cook University:root_0_TS-1187A-B-A-B_James Cook University")
-		(at 227.33 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4597ca63-007c-4518-91d1-7f1791b21da1")
-		(property "Reference" "S2"
-			(at 221.996 104.292 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TS-1187A-B-A-B"
-			(at 221.996 109.982 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPST 50mA @ 12VDC Top Actuated Round Button 160gf SMD Tactile Switches RoHS"
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SOURCE" "TS-1187A-B-A-B.SchLib"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MP" "TS-1187A-B-A-B"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "*"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PIN COUNT" "4"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "COMPONENT TYPE" "Standard"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DESIGN ITEM ID" "TS-1187A-B-A-B"
-			(at 219.202 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LCSC PN" "C318884"
-			(at 228.092 111.252 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CAPACITANCE" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE SIZE/DIMENSION" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET URL" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET VERSION" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIELECTRIC" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER URL" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RATED VOLTAGE" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE (%)" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE CODE (IMPERIAL)" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE CODE (METRIC)" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE/PACKAGE" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "COMPOSITION" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CONTACT PLATING" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DEPTH" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LEAD FREE" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LENGTH" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MILITARY STANDARD" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUNT" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NUMBER OF PINS" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGE QUANTITY" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGING" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "POWER RATING" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RADIATION HARDENING" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RESISTANCE" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TERMINATION" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE RATING (DC)" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WEIGHT" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WIDTH" ""
-			(at 227.33 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "10ecf640-b9b8-4e42-933c-2f0c15fa3a27")
-		)
-		(pin "C"
-			(uuid "b0da5211-ee34-4fd4-b111-d331ddc86336")
-		)
-		(pin "B"
-			(uuid "35557d7d-1441-4b33-bea4-3acb77086763")
-		)
-		(pin "D"
-			(uuid "2f35b878-7705-4574-9aaf-ff61fdb5a5c8")
-		)
-		(instances
-			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/bf94317a-9dda-4934-8bf5-bd19b681ec92"
-					(reference "S2")
 					(unit 1)
 					(variant
 						(name "important")
@@ -8511,6 +7918,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 224.79 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5448499-797f-4428-93c3-4652fc1702f3")
+		(property "Reference" "SW3"
+			(at 224.79 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 224.79 109.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 224.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 224.79 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C318884"
+			(at 225.044 112.014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "401cc273-484d-42f0-b1b1-9ceae4c89e95")
+		)
+		(pin "2"
+			(uuid "25eb767c-e8a8-4170-86d7-c6f355226b71")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/bf94317a-9dda-4934-8bf5-bd19b681ec92"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 217.17 116.84 0)
 		(unit 1)
@@ -9385,596 +8881,7 @@
 	)
 	(symbol
 		(lib_id "Miscellaneous Connectors:root_0_mirrored_Header 3_Miscellaneous Connectors.IntLib")
-		(at 236.22 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da71508f-6488-41e8-aac8-598393f42b8c")
-		(property "Reference" "P3"
-			(at 228.6 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Header 3"
-			(at 228.6 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Header, 3-Pin"
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 228.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 228.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 228.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "CAPACITANCE" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE SIZE/DIMENSION" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET URL" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET VERSION" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIELECTRIC" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER URL" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RATED VOLTAGE" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE (%)" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE CODE (IMPERIAL)" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE CODE (METRIC)" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CASE/PACKAGE" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "COMPOSITION" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CONTACT PLATING" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DEPTH" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LEAD FREE" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LENGTH" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MILITARY STANDARD" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUNT" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "NUMBER OF PINS" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGE QUANTITY" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGING" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "POWER RATING" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RADIATION HARDENING" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RESISTANCE" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TERMINATION" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE RATING (DC)" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WEIGHT" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WIDTH" ""
-			(at 236.22 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8effdb99-85f1-4e5a-841f-53875a41f048")
-		)
-		(pin "2"
-			(uuid "462f9c81-37c2-41f4-a71b-c599320081d6")
-		)
-		(instances
-			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/bf94317a-9dda-4934-8bf5-bd19b681ec92"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 224.79 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d3b64c93-8d4a-48cb-b37f-417d48dc968a")
-		(property "Reference" "SW3"
-			(at 224.79 97.282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 224.79 99.822 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
-			(at 224.79 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 224.79 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PN" "C318884"
-			(at 225.044 101.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ec17157-d93e-47e1-b301-be75cc170de6")
-		)
-		(pin "2"
-			(uuid "64d5853a-273c-4871-bf21-f5e8e2d4ec79")
-		)
-		(instances
-			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/bf94317a-9dda-4934-8bf5-bd19b681ec92"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Miscellaneous Connectors:root_0_mirrored_Header 3_Miscellaneous Connectors.IntLib")
-		(at 236.22 83.82 0)
+		(at 242.57 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9982,9 +8889,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "da71508f-6488-41e8-aac8-598393f42b8c")
+		(uuid "da71508f-6488-41e8-aac8-598393f42b8d")
 		(property "Reference" "P3"
-			(at 228.6 83.82 0)
+			(at 234.95 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9995,7 +8902,7 @@
 			)
 		)
 		(property "Value" "Header 3"
-			(at 228.6 96.52 0)
+			(at 234.95 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10006,7 +8913,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10017,7 +8924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +8935,7 @@
 			)
 		)
 		(property "Description" "Header, 3-Pin"
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10039,7 +8946,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 228.6 83.82 0)
+			(at 234.95 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,7 +8958,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 228.6 83.82 0)
+			(at 234.95 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10063,7 +8970,7 @@
 			)
 		)
 		(property "PUBLISHER" "Altium Limited"
-			(at 228.6 83.82 0)
+			(at 234.95 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10075,7 +8982,7 @@
 			)
 		)
 		(property "CAPACITANCE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10086,7 +8993,7 @@
 			)
 		)
 		(property "CASE SIZE/DIMENSION" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10097,7 +9004,7 @@
 			)
 		)
 		(property "DATASHEET URL" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10108,7 +9015,7 @@
 			)
 		)
 		(property "DATASHEET VERSION" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10119,7 +9026,7 @@
 			)
 		)
 		(property "DIELECTRIC" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10130,7 +9037,7 @@
 			)
 		)
 		(property "MANUFACTURER URL" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10141,7 +9048,7 @@
 			)
 		)
 		(property "RATED VOLTAGE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10152,7 +9059,7 @@
 			)
 		)
 		(property "TOLERANCE (%)" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,7 +9070,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10174,7 +9081,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10185,7 +9092,7 @@
 			)
 		)
 		(property "CASE CODE (IMPERIAL)" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10196,7 +9103,7 @@
 			)
 		)
 		(property "CASE CODE (METRIC)" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10207,7 +9114,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10218,7 +9125,7 @@
 			)
 		)
 		(property "COMPOSITION" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10229,7 +9136,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10240,7 +9147,7 @@
 			)
 		)
 		(property "DEPTH" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,7 +9158,7 @@
 			)
 		)
 		(property "LEAD FREE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10262,7 +9169,7 @@
 			)
 		)
 		(property "LENGTH" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10273,7 +9180,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10284,7 +9191,7 @@
 			)
 		)
 		(property "MILITARY STANDARD" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10295,7 +9202,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10306,7 +9213,7 @@
 			)
 		)
 		(property "MOUNT" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10317,7 +9224,7 @@
 			)
 		)
 		(property "NUMBER OF PINS" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10328,7 +9235,7 @@
 			)
 		)
 		(property "PACKAGE QUANTITY" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10339,7 +9246,7 @@
 			)
 		)
 		(property "PACKAGING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10350,7 +9257,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10361,7 +9268,7 @@
 			)
 		)
 		(property "RADIATION HARDENING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10372,7 +9279,7 @@
 			)
 		)
 		(property "RESISTANCE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10383,7 +9290,7 @@
 			)
 		)
 		(property "TEMPERATURE COEFFICIENT" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10394,7 +9301,7 @@
 			)
 		)
 		(property "TERMINATION" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10405,7 +9312,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10416,7 +9323,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10427,7 +9334,7 @@
 			)
 		)
 		(property "VOLTAGE RATING (DC)" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10438,7 +9345,7 @@
 			)
 		)
 		(property "WEIGHT" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10449,7 +9356,7 @@
 			)
 		)
 		(property "WIDTH" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10955,6 +9862,95 @@
 					(variant
 						(name "important")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 113.03 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed33021a-965b-4b8b-baad-6b28f240e821")
+		(property "Reference" "SW1"
+			(at 113.03 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 113.03 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 113.03 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 113.03 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C318884"
+			(at 113.284 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b92b533-721e-422f-9046-f286308040c3")
+		)
+		(pin "2"
+			(uuid "457e3b01-f3fa-4e05-a739-3e43b72c0b8b")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445/bf94317a-9dda-4934-8bf5-bd19b681ec92"
+					(reference "SW1")
+					(unit 1)
 				)
 			)
 		)
