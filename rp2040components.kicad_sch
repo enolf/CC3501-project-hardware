@@ -1703,6 +1703,30 @@
 		(uuid "103ce9d4-4e35-45f2-ab1a-4eb13007c91d")
 	)
 	(rectangle
+		(start 212.09 38.1)
+		(end 276.86 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "380990ec-3893-4071-8d31-eac34811486b")
+	)
+	(rectangle
+		(start 213.36 109.22)
+		(end 271.78 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "47d052af-4bcb-441e-95ca-af9ac77b961c")
+	)
+	(rectangle
 		(start 96.52 21.59)
 		(end 195.58 78.74)
 		(stroke
@@ -1759,9 +1783,9 @@
 		)
 		(uuid "3013be09-0d11-4856-9a14-e5cd2728a381")
 	)
-	(text "SWD + UART"
+	(text "SWD + UART & Backup SWD"
 		(exclude_from_sim no)
-		(at 236.22 44.45 0)
+		(at 228.854 37.846 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1781,9 +1805,9 @@
 		)
 		(uuid "ae8d82ff-1cf4-4867-bfda-d034c5427c60")
 	)
-	(text "Backup SWD"
+	(text ""
 		(exclude_from_sim no)
-		(at 228.6 80.01 0)
+		(at 234.95 69.85 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1794,7 +1818,7 @@
 	)
 	(text "User switch"
 		(exclude_from_sim no)
-		(at 237.49 111.76 0)
+		(at 257.81 146.558 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2170,7 +2194,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 88.9) (xy 255.27 88.9)
+			(xy 247.65 78.74) (xy 261.62 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2240,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 91.44) (xy 243.84 91.44)
+			(xy 247.65 81.28) (xy 250.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2520,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 86.36) (xy 243.84 86.36)
+			(xy 247.65 76.2) (xy 250.19 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2598,7 @@
 	)
 	(hierarchical_label "SWDIO"
 		(shape input)
-		(at 243.84 91.44 0)
+		(at 250.19 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2695,7 +2719,7 @@
 	)
 	(hierarchical_label "SWCLK"
 		(shape input)
-		(at 243.84 86.36 0)
+		(at 250.19 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7263,7 +7287,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 88.9 0)
+		(at 261.62 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7273,7 +7297,7 @@
 		(dnp no)
 		(uuid "75e3a62c-4555-45ed-8f5e-0d481895adbd")
 		(property "Reference" "#PWR136"
-			(at 255.27 95.25 0)
+			(at 261.62 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,7 +7308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 92.71 0)
+			(at 261.62 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7294,7 +7318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 88.9 0)
+			(at 261.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7305,7 +7329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 88.9 0)
+			(at 261.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7316,7 +7340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 88.9 0)
+			(at 261.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9307,7 +9331,7 @@
 	)
 	(symbol
 		(lib_id "Miscellaneous Connectors:root_0_mirrored_Header 3_Miscellaneous Connectors.IntLib")
-		(at 236.22 83.82 0)
+		(at 242.57 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9317,7 +9341,7 @@
 		(dnp no)
 		(uuid "da71508f-6488-41e8-aac8-598393f42b8c")
 		(property "Reference" "P3"
-			(at 228.6 83.82 0)
+			(at 234.95 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9328,7 +9352,7 @@
 			)
 		)
 		(property "Value" "Header 3"
-			(at 228.6 96.52 0)
+			(at 234.95 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9339,7 +9363,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9350,7 +9374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9361,7 +9385,7 @@
 			)
 		)
 		(property "Description" "Header, 3-Pin"
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9372,7 +9396,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 228.6 83.82 0)
+			(at 234.95 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9384,7 +9408,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 228.6 83.82 0)
+			(at 234.95 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9396,7 +9420,7 @@
 			)
 		)
 		(property "PUBLISHER" "Altium Limited"
-			(at 228.6 83.82 0)
+			(at 234.95 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9408,7 +9432,7 @@
 			)
 		)
 		(property "CAPACITANCE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9419,7 +9443,7 @@
 			)
 		)
 		(property "CASE SIZE/DIMENSION" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9430,7 +9454,7 @@
 			)
 		)
 		(property "DATASHEET URL" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9441,7 +9465,7 @@
 			)
 		)
 		(property "DATASHEET VERSION" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9452,7 +9476,7 @@
 			)
 		)
 		(property "DIELECTRIC" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,7 +9487,7 @@
 			)
 		)
 		(property "MANUFACTURER URL" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9474,7 +9498,7 @@
 			)
 		)
 		(property "RATED VOLTAGE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,7 +9509,7 @@
 			)
 		)
 		(property "TOLERANCE (%)" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,7 +9520,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9507,7 +9531,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9518,7 +9542,7 @@
 			)
 		)
 		(property "CASE CODE (IMPERIAL)" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9529,7 +9553,7 @@
 			)
 		)
 		(property "CASE CODE (METRIC)" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9540,7 +9564,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,7 +9575,7 @@
 			)
 		)
 		(property "COMPOSITION" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9562,7 +9586,7 @@
 			)
 		)
 		(property "CONTACT PLATING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,7 +9597,7 @@
 			)
 		)
 		(property "DEPTH" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9584,7 +9608,7 @@
 			)
 		)
 		(property "LEAD FREE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9595,7 +9619,7 @@
 			)
 		)
 		(property "LENGTH" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9606,7 +9630,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,7 +9641,7 @@
 			)
 		)
 		(property "MILITARY STANDARD" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9628,7 +9652,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9639,7 +9663,7 @@
 			)
 		)
 		(property "MOUNT" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9650,7 +9674,7 @@
 			)
 		)
 		(property "NUMBER OF PINS" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9661,7 +9685,7 @@
 			)
 		)
 		(property "PACKAGE QUANTITY" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9672,7 +9696,7 @@
 			)
 		)
 		(property "PACKAGING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9683,7 +9707,7 @@
 			)
 		)
 		(property "POWER RATING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,7 +9718,7 @@
 			)
 		)
 		(property "RADIATION HARDENING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9705,7 +9729,7 @@
 			)
 		)
 		(property "RESISTANCE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9716,7 +9740,7 @@
 			)
 		)
 		(property "TEMPERATURE COEFFICIENT" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9727,7 +9751,7 @@
 			)
 		)
 		(property "TERMINATION" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9738,7 +9762,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9749,7 +9773,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9760,7 +9784,7 @@
 			)
 		)
 		(property "VOLTAGE RATING (DC)" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9771,7 +9795,7 @@
 			)
 		)
 		(property "WEIGHT" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9782,7 +9806,7 @@
 			)
 		)
 		(property "WIDTH" ""
-			(at 236.22 83.82 0)
+			(at 242.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
