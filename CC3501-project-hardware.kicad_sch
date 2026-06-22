@@ -3143,13 +3143,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:SY8089A1AAC"
+		(symbol "SamacSys_Parts:SY8088AAC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "IC"
 				(at 21.59 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3160,7 +3160,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SY8089A1AAC"
+			(property "Value" "SY8088AAC"
 				(at 21.59 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3171,7 +3171,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P285X130-5N"
+			(property "Footprint" "SOT95P285X140-5N"
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3183,7 +3183,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/2001171834_Silergy-Corp-SY8089A1AAC_C479074.pdf"
+			(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_Silergy_SY8088AAC_SY8088AAC_C79313.html"
 				(at 21.59 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3195,7 +3195,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "LOW LOSS POWER DISTRIBUTION SWITCH WITH"
+			(property "Description" "DC-DC Converters Step-Down Adjustable 1 2.5V 5.5V 0.6V 5.5V 1A SOT-23-5 RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3206,7 +3206,7 @@
 					)
 				)
 			)
-			(property "Height" "1.3"
+			(property "Height" "1.4"
 				(at 21.59 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3230,7 +3230,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SY8089A1AAC"
+			(property "Manufacturer_Part_Number" "SY8088AAC"
 				(at 21.59 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3290,7 +3290,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "SY8089A1AAC_1_1"
+			(symbol "SY8088AAC_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -7.62)
@@ -15954,6 +15954,191 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:SY8088AAC")
+		(at 125.73 31.75 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "949f87ba-ec94-4e6d-b9ef-f80397171b75")
+		(property "Reference" "IC1"
+			(at 113.03 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SY8088AAC"
+			(at 113.03 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P285X140-5N"
+			(at 104.14 126.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_Silergy_SY8088AAC_SY8088AAC_C79313.html"
+			(at 104.14 226.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "DC-DC Converters Step-Down Adjustable 1 2.5V 5.5V 0.6V 5.5V 1A SOT-23-5 RoHS"
+			(at 125.73 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.4"
+			(at 104.14 426.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Silergy"
+			(at 104.14 526.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SY8088AAC"
+			(at 104.14 626.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 104.14 726.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 104.14 826.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 926.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1026.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LSCS PN" "C79313"
+			(at 112.522 28.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "461b10af-0037-42e5-8f86-b0f1054482ae")
+		)
+		(pin "3"
+			(uuid "d3c21aab-8417-4afd-94f1-87f181ded6be")
+		)
+		(pin "1"
+			(uuid "49a10045-9b38-43cd-a530-3265612fec76")
+		)
+		(pin "5"
+			(uuid "a0b3f0bd-1c6e-485d-a191-9521d09e7652")
+		)
+		(pin "4"
+			(uuid "7c1704a9-f5c8-4e0a-8b38-87133cd7f25d")
+		)
+		(instances
+			(project "CC3501-project-hardware"
+				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 54.61 149.86 0)
 		(unit 1)
@@ -21013,194 +21198,6 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
 					(reference "#FLG04")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:SY8089A1AAC")
-		(at 125.73 31.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d13b6ef8-cb94-4cf9-9587-5a0a413c507b")
-		(property "Reference" "U4"
-			(at 113.03 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SY8089A1AAC"
-			(at 113.03 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SOT95P285X130-5N"
-			(at 104.14 126.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/2001171834_Silergy-Corp-SY8089A1AAC_C479074.pdf"
-			(at 104.14 226.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "LOW LOSS POWER DISTRIBUTION SWITCH WITH"
-			(at 125.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.3"
-			(at 104.14 426.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Silergy"
-			(at 104.14 526.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SY8089A1AAC"
-			(at 104.14 626.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 726.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 826.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 926.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 1026.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "LCSC PN" "C79313"
-			(at 113.03 28.448 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "caa724f6-8a28-4add-bf00-c9cd0bff782d")
-		)
-		(pin "2"
-			(uuid "b9e3176d-4e0d-47ce-8619-c36415039d1b")
-		)
-		(pin "1"
-			(uuid "b8bb61ad-a3e3-47a4-9066-bebc220b0faa")
-		)
-		(pin "3"
-			(uuid "69287ce7-a281-43ae-91be-11c491e6d3b1")
-		)
-		(pin "5"
-			(uuid "f96a7b0b-aa85-42fe-9d75-86b44515b368")
-		)
-		(instances
-			(project "CC3501-project-hardware"
-				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
-					(reference "U4")
-					(unit 1)
-					(variant
-						(name "important")
-					)
 				)
 			)
 		)
