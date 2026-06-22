@@ -6996,6 +6996,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
 					(reference "J9")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)
@@ -8458,7 +8461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.58 68.072 90)
 			(hide yes)
 			(show_name no)
@@ -8491,7 +8494,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C25190"
+		(property "LCSC PN" "C4177"
 			(at 191.516 65.532 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,6 +8925,10 @@
 					(unit 1)
 					(variant
 						(name "important")
+						(field
+							(name "Footprint")
+							(value "Resistor_SMD:R_0603_1608Metric")
+						)
 					)
 				)
 			)
@@ -17027,7 +17034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.58 70.612 90)
 			(hide yes)
 			(show_name no)
@@ -17060,7 +17067,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C25190"
+		(property "LCSC PN" "C4177"
 			(at 191.77 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17491,6 +17498,10 @@
 					(unit 1)
 					(variant
 						(name "important")
+						(field
+							(name "Footprint")
+							(value "Resistor_SMD:R_0603_1608Metric")
+						)
 					)
 				)
 			)
@@ -19108,7 +19119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.922 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -19442,10 +19453,6 @@
 						(field
 							(name "LCSC PN")
 							(value "C25803")
-						)
-						(field
-							(name "Value")
-							(value "100k")
 						)
 					)
 				)
@@ -21161,7 +21168,7 @@
 				(justify left top)
 			)
 		)
-		(property "LCSC PN" "C479074"
+		(property "LCSC PN" "C79313"
 			(at 113.03 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21191,6 +21198,9 @@
 				(path "/4a2d49bb-8ba4-4c60-a8f0-05b8d2544445"
 					(reference "U4")
 					(unit 1)
+					(variant
+						(name "important")
+					)
 				)
 			)
 		)
@@ -22602,10 +22612,6 @@
 					(unit 1)
 					(variant
 						(name "important")
-						(field
-							(name "LCSC PN")
-							(value "C2988369 ")
-						)
 					)
 				)
 			)

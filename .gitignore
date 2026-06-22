@@ -1,6 +1,3 @@
-/~*.lck
-/*-backups/**/*
-/fp-info-cache
-/*.kicad_prl
-.DS_Store
-.history/
+# KiCad local history exclusions. Edit to add your own rules.
+fp-info-cache
+*-backups/
