@@ -1116,6 +1116,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS PN",
+          "name": "LSCS PN",
+          "show": false
         }
       ],
       "filter_string": "",
